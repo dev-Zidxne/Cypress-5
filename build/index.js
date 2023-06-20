@@ -145,7 +145,7 @@ function NewsletterSignup() {
           {
             fileName: "app/components/NewsletterSignup.jsx",
             lineNumber: 22,
-            columnNumber: 13
+            columnNumber: 7
           },
           this
         ),
@@ -159,7 +159,7 @@ function NewsletterSignup() {
             children: isSubmitting ? /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("span", { className: "loader" }, void 0, !1, {
               fileName: "app/components/NewsletterSignup.jsx",
               lineNumber: 35,
-              columnNumber: 31
+              columnNumber: 24
             }, this) : "Sign up"
           },
           void 0,
@@ -167,34 +167,34 @@ function NewsletterSignup() {
           {
             fileName: "app/components/NewsletterSignup.jsx",
             lineNumber: 29,
-            columnNumber: 13
+            columnNumber: 7
           },
           this
         )
       ] }, void 0, !0, {
         fileName: "app/components/NewsletterSignup.jsx",
         lineNumber: 21,
-        columnNumber: 11
+        columnNumber: 6
       }, this),
       result === "error" && /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { className: "mt-2 text-slate-400", children: fetcher.data.message || "Something went wrong" }, void 0, !1, {
         fileName: "app/components/NewsletterSignup.jsx",
         lineNumber: 39,
-        columnNumber: 13
+        columnNumber: 7
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/NewsletterSignup.jsx",
       lineNumber: 20,
-      columnNumber: 9
+      columnNumber: 5
     }, this),
     result === "success" && /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: "Thanks for signing up!" }, void 0, !1, {
       fileName: "app/components/NewsletterSignup.jsx",
       lineNumber: 45,
-      columnNumber: 32
+      columnNumber: 29
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/NewsletterSignup.jsx",
     lineNumber: 18,
-    columnNumber: 5
+    columnNumber: 3
   }, this);
 }
 var NewsletterSignup_default = NewsletterSignup;
@@ -1079,7 +1079,7 @@ async function action5({ request }) {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-KHDTE5CX.js", imports: ["/build/_shared/chunk-BD6KLPNU.js", "/build/_shared/chunk-IU43IUTG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-IMH7UGVR.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-XYRIXR77.js", imports: ["/build/_shared/chunk-LVROAEN4.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-WJE65P42.js", imports: ["/build/_shared/chunk-OIODKUQF.js", "/build/_shared/chunk-TCXHKMVV.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-ZMFQ6MVI.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/newsletter": { id: "routes/newsletter", parentId: "root", path: "newsletter", index: void 0, caseSensitive: void 0, module: "/build/routes/newsletter-KBVAXRSR.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/signup": { id: "routes/signup", parentId: "root", path: "signup", index: void 0, caseSensitive: void 0, module: "/build/routes/signup-HB3NFP4S.js", imports: ["/build/_shared/chunk-OIODKUQF.js", "/build/_shared/chunk-TCXHKMVV.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/takeaways": { id: "routes/takeaways", parentId: "root", path: "takeaways", index: void 0, caseSensitive: void 0, module: "/build/routes/takeaways-USXCIT3Q.js", imports: ["/build/_shared/chunk-TCXHKMVV.js", "/build/_shared/chunk-LVROAEN4.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/takeaways/new": { id: "routes/takeaways/new", parentId: "routes/takeaways", path: "new", index: void 0, caseSensitive: void 0, module: "/build/routes/takeaways/new-NGACQEFF.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "a70a9164", hmr: void 0, url: "/build/manifest-A70A9164.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-KHDTE5CX.js", imports: ["/build/_shared/chunk-BD6KLPNU.js", "/build/_shared/chunk-IU43IUTG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-GJWYLZQN.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-XYRIXR77.js", imports: ["/build/_shared/chunk-LVROAEN4.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-WJE65P42.js", imports: ["/build/_shared/chunk-OIODKUQF.js", "/build/_shared/chunk-TCXHKMVV.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-ZMFQ6MVI.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/newsletter": { id: "routes/newsletter", parentId: "root", path: "newsletter", index: void 0, caseSensitive: void 0, module: "/build/routes/newsletter-KBVAXRSR.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/signup": { id: "routes/signup", parentId: "root", path: "signup", index: void 0, caseSensitive: void 0, module: "/build/routes/signup-HB3NFP4S.js", imports: ["/build/_shared/chunk-OIODKUQF.js", "/build/_shared/chunk-TCXHKMVV.js"], hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/takeaways": { id: "routes/takeaways", parentId: "root", path: "takeaways", index: void 0, caseSensitive: void 0, module: "/build/routes/takeaways-USXCIT3Q.js", imports: ["/build/_shared/chunk-TCXHKMVV.js", "/build/_shared/chunk-LVROAEN4.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/takeaways/new": { id: "routes/takeaways/new", parentId: "routes/takeaways", path: "new", index: void 0, caseSensitive: void 0, module: "/build/routes/takeaways/new-NGACQEFF.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "c8ba64ca", hmr: void 0, url: "/build/manifest-C8BA64CA.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public\\build", future = { unstable_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

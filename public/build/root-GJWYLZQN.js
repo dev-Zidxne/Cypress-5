@@ -52,7 +52,7 @@ function NewsletterSignup() {
           {
             fileName: "app/components/NewsletterSignup.jsx",
             lineNumber: 22,
-            columnNumber: 13
+            columnNumber: 7
           },
           this
         ),
@@ -66,7 +66,7 @@ function NewsletterSignup() {
             children: isSubmitting ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { className: "loader" }, void 0, false, {
               fileName: "app/components/NewsletterSignup.jsx",
               lineNumber: 35,
-              columnNumber: 31
+              columnNumber: 24
             }, this) : "Sign up"
           },
           void 0,
@@ -74,34 +74,34 @@ function NewsletterSignup() {
           {
             fileName: "app/components/NewsletterSignup.jsx",
             lineNumber: 29,
-            columnNumber: 13
+            columnNumber: 7
           },
           this
         )
       ] }, void 0, true, {
         fileName: "app/components/NewsletterSignup.jsx",
         lineNumber: 21,
-        columnNumber: 11
+        columnNumber: 6
       }, this),
       result === "error" && /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "mt-2 text-slate-400", children: fetcher.data.message || "Something went wrong" }, void 0, false, {
         fileName: "app/components/NewsletterSignup.jsx",
         lineNumber: 39,
-        columnNumber: 13
+        columnNumber: 7
       }, this)
     ] }, void 0, true, {
       fileName: "app/components/NewsletterSignup.jsx",
       lineNumber: 20,
-      columnNumber: 9
+      columnNumber: 5
     }, this),
     result === "success" && /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { children: "Thanks for signing up!" }, void 0, false, {
       fileName: "app/components/NewsletterSignup.jsx",
       lineNumber: 45,
-      columnNumber: 32
+      columnNumber: 29
     }, this)
   ] }, void 0, true, {
     fileName: "app/components/NewsletterSignup.jsx",
     lineNumber: 18,
-    columnNumber: 5
+    columnNumber: 3
   }, this);
 }
 var NewsletterSignup_default = NewsletterSignup;
@@ -291,4 +291,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-IMH7UGVR.js.map
+//# sourceMappingURL=/build/root-GJWYLZQN.js.map
