@@ -29,4 +29,17 @@ describe('Auth', () => {
 		cy.location('pathname').should('eq', '/');
 		cy.getCookie('__session').its('value').should('be.empty');
 	});
+
+	it('should add  a new takeaway', () => {
+		cy.intercept('POST', '/takeaways/new*', 'success').as('createTakeaway');
+		cy.login();
+		cy.visit('/takeaways/new');
+		cy.get('[data-cy="title"]').click();
+		cy.get('[data-cy="title"]').type('TestTitle1');
+		cy.get('[data-cy="body"]').type('TestBody1');
+		cy.get('[data-cy="create-takeaway"]').click();
+		cy.wait('@createTakeaway')
+			.its('request.body')
+			.should('match', /TestTitle1.*TestBody1/);
+	});
 });
